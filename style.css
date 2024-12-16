@@ -1,16 +1,11 @@
-/* html { 
-    background-color: #000; 
-} 
-body { 
-    min-height: 100vh; max-width: 400px; background-color: papayawhip; margin: 0 auto; 
-} */
 
-body{
+
+.bodyC{
     display: flex;
     justify-content:center ;
     align-items: center;
     flex-direction: column;
-    
+    /* background-image: linear-gradient(110deg, rgb(188, 70, 70), rgb(255, 255, 255), rgb(220, 82, 82)); */
 }
 h1{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -23,7 +18,7 @@ h1{
 }
 button{
     border-radius: 5px;
-    font-family:Arial, Helvetica, sans-serif ;
+    font-family:'Times New Roman', Times, serif;
     font-weight: 700;
     padding: 8px;
     color: black;
@@ -42,6 +37,7 @@ button:hover{
     border: 5px solid black;
     border-radius: 16px;
     box-shadow: 10px 10px 5px #797979;
+    background-color: aliceblue;
     
 }
 
@@ -54,6 +50,3 @@ button:hover{
     flex: 1;
     border: 1px solid black;
 }
-/* .cols:hover{
-    background-color: #000;
-} */
